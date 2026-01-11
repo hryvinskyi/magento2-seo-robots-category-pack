@@ -1,20 +1,23 @@
 {
     "name": "hryvinskyi/magento2-seo-robots-category-pack",
-    "version": "1.0.0",
-    "description": "SEO Robots Category Pack - Complete solution for managing category and product robots meta tags in Magento 2",
+    "version": "2.0.0",
+    "description": "Complete SEO Robots Category solution for Magento 2 with flexible directive management, multiselect UI, and independent X-Robots-Tag configuration",
     "type": "metapackage",
     "require": {
         "magento/framework": "*",
-        "hryvinskyi/magento2-seo-robots-category-api": "*",
-        "hryvinskyi/magento2-seo-robots-category": "*",
-        "hryvinskyi/magento2-seo-robots-category-admin-ui": "*",
-        "hryvinskyi/magento2-seo-robots-category-frontend": "*"
+        "hryvinskyi/magento2-seo-robots-category-api": "2.0.0",
+        "hryvinskyi/magento2-seo-robots-category": "2.0.0",
+        "hryvinskyi/magento2-seo-robots-category-admin-ui": "2.0.0",
+        "hryvinskyi/magento2-seo-robots-category-frontend": "2.0.0"
+    },
+    "suggest": {
+        "hryvinskyi/magento2-seo-robots-pack": "Base robots meta tag management for Magento 2"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
     },
     "license": [
-        "proprietary"
+        "MIT"
     ],
     "authors": [
         {
